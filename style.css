@@ -1,0 +1,48 @@
+body {
+    font-family: 'Pochaevsk', serif;
+  }
+
+.container, .container-fluid {
+    margin-left:30px !important;
+}
+
+.bg-body-tertiary {
+    background-color: #A1869E !important;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container > .projects {
+    margin-top: 30px;
+    width: 54%;
+    margin-right: 70px;
+}
+
+.container > .details {
+    margin-top: 78px;
+    margin-right: 10px;
+    width: 17%;
+}
+
+.details > h4 {
+    padding-left: 5px;
+}
+
+.cards {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.cards > div {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.single-card > img {
+    width: 100%;
+    object-fit:cover;
+}
